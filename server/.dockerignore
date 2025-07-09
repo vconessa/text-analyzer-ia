@@ -1,0 +1,17 @@
+# Ignorar dependências do Node, pois elas serão instaladas dentro do contêiner
+node_modules
+
+# Ignorar o ambiente virtual do Python, se houver
+venv
+*.venv
+
+# Ignorar arquivos de log e de ambiente
+*.log
+.env
+python_error_log.txt
+
+# Ignorar arquivos do Docker e do Git
+Dockerfile
+.dockerignore
+.git
+.gitignore
